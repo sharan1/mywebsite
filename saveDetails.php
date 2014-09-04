@@ -16,7 +16,7 @@ mysql_query($query)  or die( "Query Failed");
 mysql_close();
 
 $to = 'sharan.girdhani@gmail.com' ;
-$subject = 'MyWebsite: '.$name. ' Mobile No : '.$mobile;
+$subject = ' Contact - Name: '.$name. ', Mobile No : '.$mobile;
 $message = $reason ;
 $headers = 'From: MyWebsite <admin@sharangirdhani.com>';
 $status = mail($to, $subject, $message, $headers) ;
