@@ -18,7 +18,7 @@ mysql_close();
 $to = 'sharan.girdhani@gmail.com' ;
 $subject = 'MyWebsite: '.$name ;
 $message = $reason ;
-$headers = 'From: admin@localhost';
+$headers = 'From: MyWebsite <admin@sharangirdhani.com>';
 $status = mail($to, $subject, $message, $headers) ;
 print_r($status) ;
 ?>
