@@ -8,7 +8,7 @@ $email = $_POST['email'] ;
 $mobile= $_POST['mobile'] ;
 $reason  = $_POST['reason'] ;
 
-mysql_connect('127.0.0.1',$username,$password) or die( "Unable to connect");
+mysql_connect('localhost',$username,$password) or die( "Unable to connect");
 @mysql_select_db($dbname) or die( "Unable to select database");
 
 $query = "INSERT INTO `contactPeople`( `name`, `email`, `mobile`, `reason`) VALUES( '$name','$email','$mobile','$reason');" ;
