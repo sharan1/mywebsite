@@ -1,0 +1,80 @@
+.largeIcons
+{ 	
+	padding-left:100px;
+	padding-right:100px;
+}
+
+#myPic
+{
+	margin-left:100px;
+	width:300px;
+	height:300px;
+}
+
+#intern
+{
+	color:black;
+}
+
+.imglogo
+{
+	margin-left:300px;
+}
+
+body
+{
+	background-image: url("../img/3.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 150%;
+  	
+}
+
+#nameDetail
+{
+	margin-left: 5em;
+	margin-top:30px;
+	font-size: 20px;
+
+}
+
+.well,.navbar-default
+{
+	border:none;
+}
+
+
+a
+{
+	font-family:cursive;
+	color:black;
+}
+
+#textProject
+{
+	font-size: 18px;
+	color: black;
+}
+
+#textAch
+{
+	font-size: 18px;
+	color: black;
+}
+
+#unList
+{
+	margin-right: 20px;
+	color: darkorange;
+}
+
+#unAch
+{
+	margin-right: 20px;
+	color: darkorange;
+}
+
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
