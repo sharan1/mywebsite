@@ -1,6 +1,6 @@
 <?php
 
-$username = "root";
+$username = "sharang";
 $dbname = "mywebsite";
-$password="";
+$password="Girdhani1986";
 ?>
