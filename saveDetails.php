@@ -20,5 +20,6 @@ $subject = ' Contact - Name: '.$name. ', Mobile No : '.$mobile;
 $message = $reason ;
 $headers = 'From: MyWebsite <admin@sharangirdhani.com>';
 $status = mail($to, $subject, $message, $headers) ;
-print_r($status) ;
+
+header('Location: temp.html');  
 ?>
