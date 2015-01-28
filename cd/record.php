@@ -11,5 +11,5 @@ $query = "INSERT INTO `CD_Payment`( `Name`, `IsPaid`) VALUES( '$name',1);" ;
 mysql_query($query)  or die( "Query Failed");
 mysql_close();
 
-header('Location: temp.html');  
+header('Location: payment.php');  
 ?>
