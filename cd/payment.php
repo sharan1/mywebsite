@@ -73,7 +73,7 @@ mysql_close();
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?></label>
+	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/27</label>
 	  </div>
 	  <div class="form-group">
 	    <div class="col-md-offset-2 col-md-10">
