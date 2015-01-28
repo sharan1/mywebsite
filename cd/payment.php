@@ -43,7 +43,7 @@ mysql_close();
 	    right: 0;
 	    z-index: 1;
 	    background-image: url('../img/CD_Blue.png');
-	    opacity: 0.25;
+	    opacity: 0.15;
 	}
 
 	.content {
