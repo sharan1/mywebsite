@@ -1,3 +1,18 @@
+<?php
+require_once('../connect.php') ;
+ini_set('display_errors',1);
+
+mysql_connect('localhost',$username,$password) or die( "Unable to connect");
+@mysql_select_db($dbname) or die( "Unable to select database");
+
+$query = "Select * from CD_Payment";
+$result = mysql_query($query)  or die( "Query Failed");
+$count = mysql_num_rows($result);
+mysql_close();
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +73,7 @@
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : </label>
+	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?></label>
 	  </div>
 	  <div class="form-group">
 	    <div class="col-md-offset-2 col-md-10">
@@ -66,6 +81,21 @@
 	    </div>
 	  </div>
 	</form>
+
+
+	<div class = "container">
+		<h4>People who paid already : </h4>
+
+		<table class="table">
+			<?php while ($row = mysql_fetch_assoc($result)) { ?>
+			<tr><td ><font color="orange" ><?php echo $row['Name'];?></font></td></tr>
+    	<?php } ?>
+		</table>
+		
+			
+		
+	</div>
+
 </font>
 </div>
 </div>
