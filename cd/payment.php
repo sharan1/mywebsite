@@ -61,7 +61,7 @@ mysql_close();
 
 <h1> Payment Collection - CD Monthly Lunch (25/-)</h1>
 
-
+<?php if($count < 27) : ?>
 	<!-- Form -->
 	<form method="POST" id = "cdForm" class="form-horizontal" action = "record.php" >
 	  <div class="form-group">
@@ -84,6 +84,9 @@ mysql_close();
 	    </div>
 	  </div>
 	</form>
+<?php else : ?>
+	<center><h2><font color="green">Yayy! Everybody Paid already</font></h2></center>
+<?php endif; ?>
 
 
 	<div class = "container">
