@@ -61,7 +61,7 @@ mysql_close();
 
 <h1> Payment Collection - CD Monthly Lunch (150/-)</h1>
 
-<?php if($count < 26) : ?>
+<?php if($count < 30) : ?>
 	<!-- Form -->
 	<form method="POST" id = "cdForm" class="form-horizontal" action = "record.php" >
 	  <div class="form-group">
@@ -72,11 +72,11 @@ mysql_close();
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-4 control-label">Paid Amount: 25/-</label>
+	    <label class="col-md-4 control-label">Paid Amount: 150/-</label>
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/30</label>
+	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/27</label>
 	  </div>
 	  <div class="form-group">
 	    <div class="col-md-offset-2 col-md-10">
