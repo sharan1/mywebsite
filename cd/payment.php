@@ -5,11 +5,11 @@ ini_set('display_errors',1);
 mysql_connect('localhost',$username,$password) or die( "Unable to connect");
 @mysql_select_db($dbname) or die( "Unable to select database");
 
-$query = "Select * from CD_Payment where `IsPaid` = 1";
+$query = "Select * from CD_Payment where `IsPaid` = 1 AND `IsPresent` = 1";
 $result = mysql_query($query)  or die( "Query 1 Failed");
 $count = mysql_num_rows($result);
 
-$query_unpaid = "Select * from CD_Payment where `IsPaid` = 0";
+$query_unpaid = "Select * from CD_Payment where `IsPaid` = 0 AND `IsPresent` = 1";
 $result_unpaid = mysql_query($query_unpaid)  or die( "Query 2 Failed");
 mysql_close();
 ?>
@@ -59,9 +59,9 @@ mysql_close();
 	<div class = "content">
 <font face="Comic sans MS" color="black" size="3px">
 
-<h1> Payment Collection - CD Monthly Lunch (25/-)</h1>
+<h1> Payment Collection - CD Monthly Lunch (150/-)</h1>
 
-<?php if($count < 27) : ?>
+<?php if($count < 26) : ?>
 	<!-- Form -->
 	<form method="POST" id = "cdForm" class="form-horizontal" action = "record.php" >
 	  <div class="form-group">
@@ -76,7 +76,7 @@ mysql_close();
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/27</label>
+	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/30</label>
 	  </div>
 	  <div class="form-group">
 	    <div class="col-md-offset-2 col-md-10">
