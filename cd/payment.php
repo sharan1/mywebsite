@@ -59,7 +59,7 @@ mysql_close();
 	<div class = "content">
 <font face="Comic sans MS" color="black" size="3px">
 
-<h1> Payment Collection - CD Monthly Lunch (150/-)</h1>
+<h1> CD - VASOOLI (February - 2015)</h1>
 
 <?php if($count < 30) : ?>
 	<!-- Form -->
