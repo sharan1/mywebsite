@@ -61,7 +61,7 @@ mysql_close();
 
 <h1> CD - VASOOLI (February - 2015)</h1>
 
-<?php if($count < 30) : ?>
+<?php if($count < 26) : ?>
 	<!-- Form -->
 	<form method="POST" id = "cdForm" class="form-horizontal" action = "record.php" >
 	  <div class="form-group">
