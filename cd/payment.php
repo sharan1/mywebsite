@@ -15,7 +15,9 @@ mysql_close();
 ?>
 
 
-
+<?php
+	$total_people = 36;
+?>
 <!DOCTYPE html>
 <html>
 
@@ -59,9 +61,9 @@ mysql_close();
 	<div class = "content">
 <font face="Comic sans MS" color="black" size="3px">
 
-<h1> CD - VASOOLI (February - 2015)</h1>
+<h1> CD - VASOOLI (April - 2015)</h1>
 
-<?php if($count < 26) : ?>
+<?php if($count < $total_people) : ?>
 	<!-- Form -->
 	<form method="POST" id = "cdForm" class="form-horizontal" action = "record.php" >
 	  <div class="form-group">
@@ -72,11 +74,11 @@ mysql_close();
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-4 control-label">Paid Amount: 150/-</label>
+	    <label class="col-md-4 control-label">Paid Amount: 60/-</label>
 	  </div>
 
 	  <div class="form-group">
-	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/26</label>
+	    <label class="col-md-5 control-label">Total No. of People Paid Till Now : <?php print_r($count); ?>/<?php echo $total_people; ?></label>
 	  </div>
 	  <div class="form-group">
 	    <div class="col-md-offset-2 col-md-10">
