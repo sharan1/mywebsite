@@ -16,7 +16,7 @@ mysql_close();
 
 
 <?php
-	$total_people = 34;
+	$total_people = 33;
 ?>
 <!DOCTYPE html>
 <html>
