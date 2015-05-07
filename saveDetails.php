@@ -1,4 +1,10 @@
 <?php
+
+if(empty($_POST))
+{
+	header('Location: contact.php'); 
+}
+
 require_once('connect.php') ;
 ini_set('display_errors',1);
 
@@ -29,5 +35,5 @@ $recipient_status = mail($r_to, $r_subject, $r_message, $r_headers) ;
 
 
 
-header('Location: temp.html');  
+header('Location: temp.php');  
 ?>
