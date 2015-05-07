@@ -63,7 +63,7 @@
 							<div class="panel-body">
 								<div class="row">
 									<div class="col-md-3">
-										<img src="img/sports.jpg" />
+										<img src="img/sports.png" />
 									</div>
 									<div class="col-md-6">
 										Sports Captain of Prithvi House(1 of the 4 Houses) in IIIT Hyderabad.
