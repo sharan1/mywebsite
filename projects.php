@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<font face ="Comic sans MS">
-				<h2 style="color:black">My Projects:</h2><hr />
+				<h2 style="color:black">My College Projects:</h2><hr />
 
 
 				<ul class="fa-ul" style="background-color:transparent">

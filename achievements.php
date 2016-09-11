@@ -8,9 +8,7 @@
 
 
 				<ul class="fa-ul" style="background-color:transparent">
-					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">2012, Participant,Jagriti Yatra, a national train journey to promote enterprise led development.</b></li>
 					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">September 2012, Won the Inter College Table-Tennis championship organized by BITS Hyderabad.</b></li>
-					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">July 2011, Participated in Model United Nations(MUN)-TGIM, Bangalore as a delegate of Indonesia in the General Assembly.</b></li>
 					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">2010, Secured 6633th rank among nearly 4 lac students in IIT-JEE.</b></li>
 					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">2010, Secured 2857th rank among nearly 10 lac students in AIEEE.</b></li>
 					<li><i id="unAch" class="fa fa-circle-o-notch fa-spin"></i><b id="textAch">2007, Secured All India Rank of 113 and 1st rank in the whole state(Madhya Pradesh) in the 1st Nationwide Interactive Mathematics Olympiad.</b></li>
