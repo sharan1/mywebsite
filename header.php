@@ -36,7 +36,6 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Internships<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="internships.php#allegro">Allegro Solutions-Fall2016</a></li>
 							<li><a href="internships.php#isb">ISB-Summer2013</a></li>
 							<li><a href="internships.php#color">ColorSplash-Summer2012</a></li>
 							<li><a href="internships.php#trip">Tripnaksha-Summer2011</a></li>
