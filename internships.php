@@ -3,11 +3,6 @@
 	<div class="container" id="intern">
 	<font face="Comic sans MS" size="4px">
 	<hr/>
-		<h2 id="allegro"><u><a href="https://www.allegrosolutions.org/" target="_blank">Allegro Solutions</a></u>:</h2>	
-		<p> <b>09/12/2016-Present</b>, Intern at Allegro Solutions, Charlotte. As an intern I am working on web technologies like PHP, Javascript etc.</p>
-		<img src="img/allegro.jpg" class="img-rounded imglogo" width="400px" height="200px">
-		<br /><br />
-		
 		<h2 id="isb"><u><a href="http://www.isb.edu" target="_blank">Indian School of Business</a></u>:</h2>	
 		<p> <b>05/03/2013-07/02/2013</b>, Internship at Indian School of Business(ISB),Hyderabad under Prof. Kannan Srikanth in Faculty & Research Department. As an intern I have worked on a project which involved the use of tools like MySQL, C programming and Stata.</p>
 

@@ -14,7 +14,7 @@
   		<div class="row">
   			<p><i style="color:black">
   				<br /><br /><br />Hello,<br />
-  				I am Sharan, a Graduate Student in Computer Science, at <a href="http://www.uncc.edu/" target="_blank">University of North Carolina, Charlotte </b>and a <b>B-Tech Under-Graduate from <a href="http://www.iiit.ac.in/" target="_blank" >International Institute of Information Technology, Hyderabad(IIIT-H), India.</a>
+  				I am Sharan, a Graduate Student in Computer Science, at <a href="http://www.uncc.edu/" target="_blank"><b>University of North Carolina, Charlotte </b></a>and a B-Tech Under-Graduate from <a href="http://www.iiit.ac.in/" target="_blank" ><b>International Institute of Information Technology, Hyderabad(IIIT-H), India.</b></a>
   			</i></p>
   		</div>
     </font>
