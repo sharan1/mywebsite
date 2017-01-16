@@ -22,7 +22,7 @@
 										<a href = "http://www.uncc.edu" target="_blank"><img src="img/uncc_logo.jpeg" /><br /></a>
 									</div>
 									<div class="col-md-7">
-										I am currently doing my MS in Computer Science from UNC Charlotte since August-2016. I think there lot of opportunities for choosing your field of concentration.
+										<span id="textProject">I am currently doing my MS in Computer Science from UNC Charlotte since August-2016. I think there lot of opportunities for choosing your field of concentration.</span>
 									</div>
 								</div>
 							</div>
@@ -44,7 +44,7 @@
 										<a href = "http://iiit.ac.in/" target="_blank"><img src="img/iiith.jpg" /><br />&nbsp;&nbsp;<b><i>IIIT Hyderabad</i></b></a>
 									</div>
 									<div class="col-md-6">
-										I have completed my B-Tech from IIIT Hyderabad in May, 2014. I found it to be a career oriented college with a lot of real time opportunities to make it big.
+										<span id="textProject">I have completed my B-Tech from IIIT Hyderabad in May, 2014. I found it to be a career oriented college with a lot of real time opportunities to make it big.</span>
 									</div>
 								</div>
 							</div>
@@ -67,7 +67,7 @@
 										<a href = "http://www.shivjyoti.org/rathkankara/index.php" target="_blank"><img src="img/shivJyoti.jpg" width="140" height="120" /></a>
 									</div>
 									<div class="col-md-6">
-										I finished my Higher Secondary School(12th Grade) here in Kota, India. 
+										<span id="textProject">I finished my Higher Secondary School(12th Grade) here in Kota, India. </span>
 								    </div>
 								</div>
 							</div>
@@ -89,7 +89,7 @@
 										<a href = "http://www.stthomashsc.com" target="_blank"><img src="img/stthomas.jpg" width="140" height="120" /></a>
 									</div>
 									<div class="col-md-6">
-										This is where I grew up and finished my education till High School. After that, I went to Kota, India for higher studies.
+										<span id="textProject">This is where I grew up and finished my education till High School. After that, I went to Kota, India for higher studies.</span>
 								    </div>
 								</div>
 							</div>

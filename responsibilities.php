@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3>Responsible Positions:</h3><hr />
+				<h3>Responsiblities :</h3><hr />
 				<div class="panel-group" id="accordion">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
@@ -22,7 +22,7 @@
 										<img src="img/iiith.jpg" /><br />&nbsp;&nbsp;<b><i>IIIT Hyderabad</i></b>
 									</div>
 									<div class="col-md-6">
-										2012-14: Secretary & Advisor, Activity Council, IIIT Hyderabad.
+										<span id="textProject">2012-14: Secretary & Advisor, Activity Council, IIIT Hyderabad.</span>
 									</div>
 								</div>
 							</div>
@@ -44,7 +44,7 @@
 										<img src="img/sports.jpg" />
 									</div>
 									<div class="col-md-6">
-										Sports Captain of Prithvi House(1 of the 4 Houses) at IIIT Hyderabad in my Junior Year.
+										<span id="textProject">Sports Captain of Prithvi House(1 of the 4 Houses) at IIIT Hyderabad in my Junior Year.</span>
 								    </div>
 								</div>
 							</div>
@@ -66,7 +66,7 @@
 										<img src="img/robocamp.jpg" />
 									</div>
 									<div class="col-md-6">
-										Finance Head of a week long electronics workshop named ROBOCAMP , organized every year in IIIT Hyderabad.
+										<span id="textProject">Finance Head of a week long electronics workshop named ROBOCAMP , organized every year in IIIT Hyderabad.</span>
 								    </div>
 								</div>
 							</div>
@@ -88,7 +88,7 @@
 										<img src="img/ping.jpg" />
 									</div>
 									<div class="col-md-6">
-										Member of Ping, a monthly newsletter of IIIT Hyderabad(ping.iiit.ac.in).
+										<span id="textProject">Member of Ping, a monthly newsletter of IIIT Hyderabad(ping.iiit.ac.in).</span>
 								    </div>
 								</div>
 							</div>

@@ -5,13 +5,13 @@
 		<div class="row">
 			<p><b><i style="color:black">You can connect with me on:</i></b></p>
 		</div>
-		<div class="row" style="background-color:transparent">
+		<div class="row" style="background-color:transparent;height:50px;">
 			<div class="col-md-12">
 				<div class="well" style="background-color:transparent">
-					<a href="http://www.facebook.com/sharan.girdhani"><i class="largeIcons fa fa-facebook fa-3x" ></i></a>
-					<a href="https://plus.google.com/u/0/115189126571610343846/posts/p/pub"><i class="largeIcons fa fa-google-plus fa-3x" ></i></a>
-					<a href="http://in.linkedin.com/pub/sharan-girdhani/45/178/44b/"><i class="largeIcons fa fa-linkedin fa-3x"></i></a>
-					<a href="https://twitter.com/SharanGirdhani"><i class="largeIcons fa fa-twitter fa-3x"></i></a>
+					<a href="http://www.facebook.com/sharan.girdhani"><i class="largeIcons fa fa-facebook fa-2x" ></i></a>
+					<a href="https://plus.google.com/u/0/115189126571610343846/posts/p/pub"><i class="largeIcons fa fa-google-plus fa-2x" ></i></a>
+					<a href="http://in.linkedin.com/pub/sharan-girdhani/45/178/44b/"><i class="largeIcons fa fa-linkedin fa-2x"></i></a>
+					<a href="https://twitter.com/SharanGirdhani"><i class="largeIcons fa fa-twitter fa-2x"></i></a>
 
 				</div>
 			</div>
