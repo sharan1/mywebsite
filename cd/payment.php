@@ -1,17 +1,23 @@
 <?php
 require_once('../connect.php') ;
 ini_set('display_errors',1);
+$mysqli = new mysqli("localhost", $username, $password, $dbname);
 
-mysql_connect('localhost',$username,$password) or die( "Unable to connect");
-@mysql_select_db($dbname) or die( "Unable to select database");
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+// mysqli_connect('127.0.0.1',$username,$password) or die( "Unable to connect");
+// @mysql_select_db($dbname) or die( "Unable to select database");
 
 $query = "Select * from CD_Payment where `IsPaid` = 1 AND `IsPresent` = 1";
-$result = mysql_query($query)  or die( "Query 1 Failed");
-$count = mysql_num_rows($result);
+$result = mysqli_query($mysqli, $query)  or die( "Query 1 Failed");
+$count = mysqli_num_rows($result);
 
 $query_unpaid = "Select * from CD_Payment where `IsPaid` = 0 AND `IsPresent` = 1";
-$result_unpaid = mysql_query($query_unpaid)  or die( "Query 2 Failed");
-mysql_close();
+$result_unpaid = mysqli_query($mysqli, $query_unpaid)  or die( "Query 2 Failed");
+mysqli_close($mysqli);
 ?>
 
 
@@ -96,7 +102,7 @@ mysql_close();
 		<h4>People who paid already : </h4>
 
 		<table class="table">
-			<?php while ($row = mysql_fetch_assoc($result)) { ?>
+			<?php while ($row = mysqli_fetch_assoc($result)) { ?>
 			<tr><td ><font color="orange" ><?php echo $row['Name'];?></font></td></tr>
     	<?php } ?>
 		</table>
@@ -106,7 +112,7 @@ mysql_close();
 		<h4>People who are yet to pay : </h4>
 
 		<table class="table">
-			<?php while ($row1 = mysql_fetch_assoc($result_unpaid)) { ?>
+			<?php while ($row1 = mysqli_fetch_assoc($result_unpaid)) { ?>
 			<tr><td ><font color="red" ><?php echo $row1['Name'];?></font></td></tr>
     	<?php } ?>
 		</table>

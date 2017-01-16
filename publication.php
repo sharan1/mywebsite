@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 	<div class="container">
-		<font face ="Comic sans MS" size="4px">
+		<font size="4px">
 		<div class="row">
 			<div class="col-md-12">
 				<img src = "img/iscmi2014.jpg" />
@@ -15,7 +15,6 @@
 				</p>
 			</div>
 		</div>
-		</font>
 	</div>
 
 	

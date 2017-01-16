@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<font face="Comic sans MS" size="4px">
+				<font face="Comic sans MS" size="2px">
 				<hr/>
 				<p>Copyright &copy; Sharan Girdhani.
 					<a data-toggle="modal" href="#myModal">Terms and Conditions</a>

@@ -5,13 +5,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3>Responsibilities in College:</h3><hr />
+				<h3>Responsible Positions:</h3><hr />
 				<div class="panel-group" id="accordion">
 					<div class="panel panel-primary">
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#section1">
-									2013-14: Secretary & Advisor, Activity Council, IIIT Hyderabad.
+									2012-14: Secretary & Advisor, Activity Council, IIIT Hyderabad.
 								</a>
 							</h4>
 						</div>

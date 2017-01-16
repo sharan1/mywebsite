@@ -26,9 +26,9 @@
 				<span class="icon-bar"></span>
 			</button>
 
-			<a href="index.php" class="navbar-brand" style="font-size:40px">Sharan Girdhani</a>
+			<a href="index.php" class="navbar-brand" style="font-size:40px;font-style: italic">Sharan Girdhani</a>
 		</div>
-		<font face ="Comic sans MS" size="4px">
+		<font size="4px">
 			<div class="nav navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
@@ -49,6 +49,5 @@
 					<li><a href="contact.php">Contact Me</a></li>
 				</ul>
 			</div>
-		</font>
 	</div>
 </div>

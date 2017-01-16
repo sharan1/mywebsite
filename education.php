@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>My Education:</h2><hr />
+				<h2>Education:</h2><hr />
 				<div class="panel-group" id="accordion">
 					<div class="panel panel-success">
 						<div class="panel-heading">
@@ -21,7 +21,7 @@
 									<div class="col-md-2">
 										<a href = "http://www.uncc.edu" target="_blank"><img src="img/uncc_logo.jpeg" /><br /></a>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-7">
 										I am currently doing my MS in Computer Science from UNC Charlotte since August-2016. I think there lot of opportunities for choosing your field of concentration.
 									</div>
 								</div>
@@ -51,28 +51,6 @@
 						</div>
 					</div>
 
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#section3">
-									Jagriti Yatra : Jagriti Sewa Sansthan, Mumbai.
-								</a>
-							</h4>
-						</div>
-						<div class="panel-collapse collapse" id="section3">
-							<div class="panel-body">
-								<div class="row">
-									<div class="col-md-2">
-										<a href = "http://www.jagritiyatra.com" target="_blank"><img src="img/JY2012.jpg" width="140" height="120" /></a>
-									</div>
-									<div class="col-md-8">
-								        Jagriti Yatra is an 15 day ambitious train journey of discovery and transformation that takes hundreds of India's highly motivated youth on a national odyssey. The aim is to awaken the spirit of entrepreneurship.The vision of Jagriti is to inspire young Indians living in the middle of the Indian demographic diamond (Rs 40 - Rs 120 per day) to lead development by taking to enterprise.<br />
-								        I went on Jagriti yatra in 2012. I have put this part in Education section, just because this 15 day journey has taught me some of the most important lessons in life, which I think no school/college can ever teach.
-								    </div>
-								</div>
-							</div>
-						</div>
-					</div>
 
 					<div class="panel panel-danger">
 						<div class="panel-heading">
@@ -96,7 +74,7 @@
 						</div>
 					</div>
 
-					<div class="panel panel-default">
+					<div class="panel panel-info">
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#section5">
