@@ -6,8 +6,8 @@
 				<h2 style="color:black">Projects:</h2><hr />
 				
 				<ul class="fa-ul" style="background-color:transparent">
-					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Ali Sever, made an online Reservation Portal using PHP & MySQL as a major Project of Software System Design & Implementation Course at UNC Charlotte during Fall 2016. A running version of the project can be found <a href="RoomReservation/web/" target="_blank">here</a>.</span></li>
-					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Pamela Thompson, made an Online Website using PHP & MySQL as a major Project of Database Systems Course at UNC Charlotte during Fall-2016. A running version of the project can be found <a href="ClothingCloset/web/" target="_blank">here</a>.</span></li>
+					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Ali Sever, made an online Reservation Portal - <a href="RoomReservation/web/" target="_blank">'Book My Room'</a>, using PHP & MySQL as a major Project of Software System Design & Implementation Course at UNC Charlotte during Fall 2016.
+					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Pamela Thompson, made an Online Website - <a href="ClothingCloset/web/" target="_blank">'Clothing Closet'</a>, using PHP & MySQL as a major Project of Database Systems Course at UNC Charlotte during Fall-2016.</span></li>
 					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Erik Saule, made an advanced parallel programming implementation of the famous N-Queens problem i.e. counting the total number of N-Queens implementations possible with a given number n. Implemented in both MPI(Distributed systems) and OpenMP(Shared Memory) libraries.</span></li>
 					<li><i id="unList" class="fa fa-circle-o-notch fa-spin"></i><span id="textProject">Under Dr. Kishore Prahallad, Made a “Book Search Engine” in C Language as a Mini Project in C Programming Course.</span></li>
 					<br>
