@@ -13,12 +13,17 @@ $email = $_POST['email'] ;
 $mobile= $_POST['mobile'] ;
 $reason  = $_POST['reason'] ;
 
-mysql_connect('localhost',$username,$password) or die( "Unable to connect");
-@mysql_select_db($dbname) or die( "Unable to select database");
+$mysqli = new mysqli("localhost", $username, $password, $dbname);
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
 
 $query = "INSERT INTO `contactPeople`( `name`, `email`, `mobile`, `reason`) VALUES( '$name','$email','$mobile','$reason');" ;
-mysql_query($query)  or die( "Query Failed");
-mysql_close();
+//mysqli_query($query)  or die( "Query Failed");
+$result = mysqli_query($mysqli, $query)  or die( "Query Failed");
+mysqli_close($mysqli);
 
 $to = 'sharan.girdhani@gmail.com' ;
 $subject = ' Contact - Name: '.$name. ', Mobile No : '.$mobile. ', Email : '.$email;
