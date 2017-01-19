@@ -37,7 +37,7 @@ class AllItem extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'allitem';
+        return 'AllItem';
     }
 
     /**
