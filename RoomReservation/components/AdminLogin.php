@@ -102,7 +102,7 @@ class AdminLogin extends Model
         $user = Users::findByEmail($email);
         if(isset($user))
         {
-            $link = 'http://localhost'.Yii::$app->request->scriptUrl.'?r=site/reset-password&hash='.$user->PasswordHash.'&username='.$user->UserName;
+            $link = Yii::$app->params['domain']."".Yii::$app->request->scriptUrl.'?r=site/reset-password&hash='.$user->PasswordHash.'&username='.$user->UserName;
             $message = "Hi ".$user->FirstName.",\n\t Please reset your password by clicking on this link:\n\n\t$link\n\nRegards,\nTeam BookMyRoom\n";
             $to = $email;
             $subject = "Reset Password: BookMyRoom";
