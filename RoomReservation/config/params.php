@@ -2,5 +2,5 @@
 
 return [
     'adminEmail' => 'admin@example.com',
-    'domain' => 'https://www.sharangirdhani.com'
+    'domain' => 'http://www.sharangirdhani.com'
 ];
