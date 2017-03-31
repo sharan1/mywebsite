@@ -1,1 +1,4 @@
 .DS_Store
+connect.php
+RoomReservation/config/db.php
+RoomReservation/config/params.php
