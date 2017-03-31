@@ -2,3 +2,5 @@
 connect.php
 RoomReservation/config/db.php
 RoomReservation/config/params.php
+ClothingCloset/config/db.php
+ClothingCloset/config/params.php
