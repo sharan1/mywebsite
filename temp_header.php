@@ -1,4 +1,4 @@
-<div class="navbar navbar-default" style="background-color:orange">
+<div class="navbar navbar-default" style="background-color:darkorange">
 	<div class="container">
 			<div class="nav navbar-collapse collapse">
 				<font size="6px" />
