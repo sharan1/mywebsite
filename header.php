@@ -13,10 +13,10 @@
 
 
 <body>
-	
+<?php include 'temp_header.php'; ?>
+
 <!--fixed navidation bar with dropdown menu  
 =======================================================-->
-<br>
 <div class="navbar navbar-default" style="background-color:transparent">
 	<div class="container">
 		<div class="navbar-header">
